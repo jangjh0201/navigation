@@ -17,14 +17,17 @@ repositories {
 }
 
 dependencies {
-    // Use JUnit Jupiter for testing.
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
-    testImplementation 'org.assertj:assertj-core:3.23.1'
-
     implementation 'org.jgrapht:jgrapht-core:1.0.1'
 
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:31.1-jre'
+
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+
+    // Use JUnit Jupiter for testing.
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
+    testImplementation 'org.assertj:assertj-core:3.23.1'
 }
 
 application {
