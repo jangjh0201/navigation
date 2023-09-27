@@ -15,7 +15,7 @@ import navigation.domain.SectionProxy;
 
 import static org.assertj.core.api.Assertions.*;
 
-public class Dijkstra {
+public class Graph {
 
     @Test
     public void getDijkstraShortestPath() {
