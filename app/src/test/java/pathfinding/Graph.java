@@ -1,4 +1,4 @@
-package navigation;
+package pathfinding;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -9,9 +9,9 @@ import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.WeightedMultigraph;
 import org.junit.jupiter.api.Test;
 
-import navigation.domain.Section;
-import navigation.domain.Station;
-import navigation.domain.SectionProxy;
+import pathfinding.domain.Section;
+import pathfinding.domain.SectionProxy;
+import pathfinding.domain.Station;
 
 import static org.assertj.core.api.Assertions.*;
 

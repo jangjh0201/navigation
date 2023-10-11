@@ -1,4 +1,4 @@
-package navigation.domain;
+package pathfinding.domain;
 
 public class Section {
 
